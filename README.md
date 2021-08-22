@@ -1,2 +1,2 @@
 # Proverka
-https://ckachok.github.io/wildlife/
+https://ckachok.github.io/Proverka/wildlife/
