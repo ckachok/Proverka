@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Wildlife</title>
+</head>
+<body class="body">
+    <header class="header">  <!--Header-->
+        <div class="container header__container">
+            <div class="logo">
+                <a class="link-reset logo-icon" href="#">
+                    <img src="assets/logo.svg" alt="Wildlife logo">
+                </a>
+                <span class="logo-text">wildlife</span>
+            </div>
+            <nav class="header-nav">
+                <ul class="list-reset header-nav__list">
+                    <li class="header-nav__items">
+                        <a class="link-reset header-nav__links" href="#">Blog</a>
+                    </li>
+                    <li class="header-nav__items">
+                        <a class="link-reset header-nav__links" href="#">Contacts</a>
+                    </li>
+                    <li class="header-nav__items">
+                        <a class="link-reset link-search" href="#" aria-label="Search"></a>
+                    </li>
+                    <li class="header-nav__items">
+                        <a class="link-reset link-sign" href="#">Sign in</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="survival"> <!--Block - Survival-->
+            <div class="container">
+                <div class="survival__content">
+                    <h1 class="survival-title">
+                        Survival
+                    </h1>
+                    <p class="survival-description">
+                        What this means is&nbsp;that we&nbsp;exist to&nbsp;help protect our environment 
+                        and do&nbsp;in&nbsp;numbers of&nbsp;ways. You can save the planet by&nbsp;donation.
+                    </p>
+                    <button class="button-reset button survival-button">Donate</button>
+                </div>
+            </div>
+        </section>
+        <section class="latest-articles"> <!--Block - Latest articles-->
+            <div class="container">
+                <h2 class="latest-articles-title">
+                    Latest articles
+                </h2>
+                <p class="latest-articles-text">
+                    Breaking news from the wild
+                </p>
+                <div class="latest-articles-slider">
+                    <button class="button-reset 
+                                   slider__button 
+                                   slider__button--left" 
+                            aria-label="Slider arrow left">
+                    </button>
+                    <div class="slider__content">
+                        <figure class="slider__items">
+                            <img src="assets/block-latest-articles-1.png" alt="Deer photo">
+                            <figcaption class="slide__description">
+                                <h4 class="slider__title">
+                                    Deer
+                                </h4>
+                                <p class="slider__subtitle">
+                                    Naturalist investigation
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <figure class="slider__items">
+                            <img src="assets/block-latest-articles-2.png" alt="Squirrel photo">
+                            <figcaption class="slide__description">
+                                <h4 class="slider__title">
+                                    Squirrel               
+                                </h4>
+                                <p class="slider__subtitle">
+                                    Kamikaze squirrels                                    
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <figure class="slider__items">
+                            <img src="assets/block-latest-articles-3.png" alt="Bird photo">
+                            <figcaption class="slide__description">
+                                <h4 class="slider__title">
+                                    Bird
+                                </h4>
+                                <p class="slider__subtitle">
+                                    Birds Fight club                                    
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <button class="button-reset 
+                                   slider__button 
+                                   slider__button--right" 
+                            aria-label="Slider arrow right">
+                    </button>
+                </div>   
+            </div>
+        </section>
+        <section class="get-notified"> <!--Block - Get notified-->
+            <div class="container">
+                <h3 class="get-notified-title">
+                    Get notified about new amazing articles
+                </h3>
+                <form class="get-notified-form" method="post" enctype="multipart/form-data">
+                    <input class="form__mail" type="email" name="user-email" id="user-email" placeholder="Email" required>
+                    <input class="form__submit" type="submit" value="Send">
+                </form>
+            </div>            
+        </section>
+    </main>
+    <footer class="footer"> <!--Footer-->
+        <div class="container footer__container">
+            <div class="logo">
+                <a class="link-reset logo-icon" href="#">
+                    <img src="assets/logo.svg" alt="Wildlife logo">
+                </a>
+                <span class="logo-text">wildlife</span>
+            </div>
+            <nav class="footer-nav">
+                <ul class="list-reset footer-nav__list">
+                    <li>
+                        <a class="link-reset footer-nav__links" href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a class="link-reset footer-nav__links" href="#">About us</a>
+                    </li>
+                    <li>
+                        <a class="link-reset footer-nav__links" href="#">Learn more</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-social">
+                <ul class="list-reset social__list">
+                    <li class="social__items">
+                        <a class="link-reset social__links" href="#" aria-label="Facebook icon"></a>
+                    </li>
+                    <li class="social__items">
+                        <a class="link-reset social__links" href="#" aria-label="Instagram icon"></a>
+                    </li>
+                    <li class="social__items">
+                        <a class="link-reset social__links" href="#" aria-label="Pinterest icon"></a>
+                    </li>
+                    <li class="social__items">
+                        <a class="link-reset social__links" href="#" aria-label="Telegram icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
